@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+tbody#operationsManagment {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+table#tictactoeTable > tr > td {
+  width: 200%;
+  height: 30%;
+}
+
+table#tictactoePlayersStatus {
+  width: 325px;
+}
+
+nav {
+  text-align: justify;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12.5%;
+  background-color: rgb(6, 66, 96);
+}
+
+section {
+  margin-left: -200px; /* - moitié de la largeur */
+  left: 27.5%;
+  top: 50px;
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+}
+
+header > h1 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+header {
+  display: block;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: rgb(191, 8, 55);
+  height: 50px;
+  width: 100%;
+}
+
+div#operationsManagment {
+  margin: 0; /* pour éviter les marges */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 100%;
+  width: 12.5%;
+  text-align: center;
+}
+
+nav > div > table {
+  margin: auto;
+}
+
+table#tictactoePlayersStatus > tr {
+  text-align: center;
+}
+
+table#tictactoePlayersStatus > tr > td {
+  width: 50px;
+  height: 50px;
+}
